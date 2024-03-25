@@ -1,0 +1,102 @@
+@charset "UTF-8";
+/* reset */
+body, h1, h2, h3, h4, h5, h6, p, address,
+ul, ol, li, dl, dt, dd, img, form, table, tr, th, td {
+  margin: 0;
+  padding: 0;
+  border: none;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 100%;
+  text-align: left;
+  list-style-type: none;
+  border-collapse: collapse;
+}
+
+textarea { font-size: 100%; vertical-align:middle;}
+img { border-style: none; display: block; }
+hr { display: none; }
+em{font-style: normal}
+input{line-height:auto;vertical-align:middle;}
+strong.more{color:#c30}
+a{text-decoration: none;}
+
+html {
+
+}
+
+body {
+  font-family:'ヒラギノ角ゴ Pro W3','Hiragino Kaku Gothic Pro','メイリオ',Meiryo,'ＭＳ Ｐゴシック',sans-serif;
+}
+
+* {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -o-box-sizing: border-box;
+  -ms-box-sizing: border-box;
+  box-sizing: border-box;
+}
+.p_flex {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.r_container{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  width: 300px;
+	height: 500px;
+	background-color:#ff0000;
+  border-width: medium thin;
+  border-color:#000000;
+  border-style: solid;
+  border-bottom-width: 1px;
+  border-top-width: 1px;
+  border-right-width: 1px;
+  border-left-width: 1px;
+  margin-right: -1px;
+  margin-left: -1px;
+}
+.b_container{
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  width: 300px;
+	height: 500px;
+	background-color:#4000ff;
+  border-width: medium thin;
+  border-color:#000000;
+  border-style: solid;
+  border-bottom-width: 1px;
+  border-top-width: 1px;
+  margin-right: -1px;
+  margin-left: -1px;
+}
+.g_container{
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  width: 300px;
+	height: 500px;
+	background-color:#029b28;
+  border-width: medium thin;
+  border-color:#000000;
+  border-style: solid;
+  border-bottom-width: 1px;
+  border-top-width: 1px;
+  margin-right: -1px;
+  margin-left: -1px;
+}
+.items{
+  margin: 5px 5px 5px 5px;
+  width: 50px;
+	height: 50px;
+	background-color:#ffffff;
+  border-width: medium thin;
+  border-color:#000000;
+  border-style: solid;
+  border-bottom-width: 1px;
+  border-top-width: 1px;
+}
